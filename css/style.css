@@ -1,3 +1,258 @@
 
 
 
+/*Ces regles permettent d'eliminer les marges et padding indesirables */
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%; 
+    box-sizing: border-box;
+}
+
+
+html, body{
+    
+    min-height: 100vh;
+}
+
+/*Les proprietés body et main permettent de garder le footer en bas et au main d'occuper tout l'espace vide*/
+body{
+    
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+
+main{
+    
+   flex: 1;
+}
+
+#PremierBar{
+    
+   background-color: rgb(156, 194, 252);
+   display: flex;
+   justify-content: space-between;
+
+}
+
+#ContainerLogo img{
+    
+   max-height: auto;
+   height: 7rem;
+   max-width: 17rem;
+   display: block;
+   padding: 1rem;
+
+}
+
+#ContainerReseauxSociaux ul{
+    
+   display: flex;
+   gap: 2rem;
+   justify-content: end;
+   list-style-type: none;
+   margin: 1rem;
+   flex-wrap: wrap;
+
+}
+
+
+#PremierBar div h1{
+    
+   font-family: fantasy;
+   font-style: italic;
+   font-weight: bold;
+   font-size: clamp(2rem , 2vh , 2rem);
+   flex-wrap: wrap;
+   color: rgb(35, 35, 142);
+   text-align: center;
+   
+}
+
+
+#PremierBar div p{
+    
+   font-family: fantasy;
+   font-style: italic;
+   font-weight: bold;
+   font-size: clamp(1.5rem , 2vh , 1.5rem);
+   flex-wrap: wrap;
+   color: rgb(35, 35, 142);
+   text-align: center;
+   
+}
+
+nav ul{
+    
+   background-color:rgb(0, 204, 102);
+   display: flex;
+   justify-content: space-around;
+   list-style-type: none;
+   gap: 0.5rem;
+   flex-wrap: wrap;
+   
+}
+
+
+#hero img{
+    
+   height: 45rem;
+   width: 100%;
+   display: block;
+   background-size: cover;
+   max-width: auto;
+   min-height: 100%;
+}
+
+
+.Section1{
+    
+  
+  background-color: rgb(0, 204, 153);
+  margin-top: 4rem;
+  padding: 1rem;
+
+}
+
+
+
+.Section1 h2{
+    
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(2rem , 2vh, 2rem);
+  margin-top : 3rem;
+  text-align: justify;
+  padding: 1rem;
+}
+
+
+.Section1 p{
+    
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(1.5rem , 2vh, 2rem);
+  max-width: 70rem;
+  margin : 1rem;
+  text-align: justify;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+
+
+#Section2 img{
+    
+    width: 38rem;
+    height: 27rem;
+    max-width: auto;
+    background-size: cover;
+    padding: 1rem;
+    margin-top: 2rem;
+  
+}
+
+
+#div2 h2{
+    
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(2rem , 2vh, 2rem);
+  margin-top : 3rem;
+  text-align: justify;
+  padding: 1rem;
+  background-color: antiquewhite;
+  text-align: center;
+  flex-wrap: wrap;
+    
+  
+}
+
+#Section2{
+    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(0, 153, 204);
+  gap: 3rem;
+
+}
+
+
+
+.div3 h2, h3{
+    
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(2rem , 2vh, 2rem);
+  margin-top : 3rem;
+  padding: 1rem;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: rgb(0, 153, 204);
+  
+
+}
+
+
+#Section4 img{
+    
+    width: 38rem;
+    height: 27rem;
+    max-width: auto;
+    background-size: cover;
+    margin-top: 2rem;
+    border: 2px blue solid;
+    border-radius: 20px;
+  
+}
+
+#Section4{
+    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+
+}
+
+
+#Section5 #img1{
+  
+    height: 30rem;
+    width: 40rem;
+    max-width: auto;
+    min-height: 100%;
+    background-size: cover;
+    padding: 2rem;
+
+}
+
+
+#Section5 #img2{
+  
+    height: 45rem;
+    width: 35rem;
+    max-width: auto;
+    min-height: 100%;
+    background-size: cover;
+    
+
+}
+
+
+#Section5{
+    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+
+}
+
+
+
+
