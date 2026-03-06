@@ -1,0 +1,31 @@
+
+
+/*Ces regles permettent d'eliminer les marges et padding indesirables */
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%; 
+    box-sizing: border-box;
+}
+
+
+html, body{
+    
+    min-height: 100vh;
+}
+
+/*Les proprietés body et main permettent de garder le footer en bas et au main d'occuper tout l'espace vide*/
+body{
+    
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+
+main{
+    
+   flex: 1;
+}
+

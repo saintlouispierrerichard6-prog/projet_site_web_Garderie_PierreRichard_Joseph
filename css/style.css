@@ -29,13 +29,18 @@ main{
     
    flex: 1;
 }
-
+/*En tete de la page, on trouve le logo, le nom de la garderie et les icones reseaux sociaux*/
 #PremierBar{
     
    background-color: rgb(156, 194, 252);
    display: flex;
    justify-content: space-between;
-
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+   width: 100%;
+   padding: 2rem;
+  
 }
 
 #ContainerLogo img{
@@ -85,16 +90,43 @@ main{
    
 }
 
+/*Bar de menu de la page*/
 nav ul{
     
    background-color:rgb(0, 204, 102);
    display: flex;
    justify-content: space-around;
    list-style-type: none;
-   gap: 0.5rem;
+   gap: 2rem;
    flex-wrap: wrap;
+   padding: 2rem;
    
 }
+
+nav ul li a{ 
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration-line : none ;
+  font-weight: bold;
+  color: #242c3b;
+  font-size: clamp(1.2rem, 2vh, 1.7rem);
+  gap: 1rem;
+}
+
+nav ul ul {
+    display: none;
+    
+}
+
+nav ul li:hover > ul {
+    display: block;
+    
+}
+
+
+nav ul ul {
+    position: absolute;
+}
+
 
 
 #hero img{
@@ -218,10 +250,10 @@ nav ul{
 }
 
 
-#Section5 #img1{
+#div4 #img1{
   
     height: 30rem;
-    width: 40rem;
+    width: 30rem;
     max-width: auto;
     min-height: 100%;
     background-size: cover;
@@ -230,9 +262,9 @@ nav ul{
 }
 
 
-#Section5 #img2{
+#div4 #img2{
   
-    height: 45rem;
+    height: 44rem;
     width: 35rem;
     max-width: auto;
     min-height: 100%;
@@ -242,7 +274,7 @@ nav ul{
 }
 
 
-#Section5{
+#div4{
     
   display: flex;
   flex-wrap: wrap;
@@ -253,6 +285,301 @@ nav ul{
 
 }
 
+#Section6{
+    
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2rem;
 
+}
+
+
+#div5 h4{
+    
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(2rem , 2vh, 2rem);
+  margin-top : 3rem;
+  padding: 1rem;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: rgb(51, 204, 204);
+
+}
+
+
+#div6 {
+    
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+  margin-bottom: 5rem;
+  padding: 3rem;
+  flex-wrap: nowrap;
+
+}
+
+
+#div6 div p{
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(1.5rem , 2vh, 2rem);
+  margin-top : 3rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+  max-width: 55rem;
+  background-color: rgb(0, 153, 204);
+  padding: 2rem;
+  border-bottom: 20px burlywood solid;
+  
+}
+
+
+#div6 div img{
+  
+    height: 10rem;
+    width: 30rem;
+    max-width: auto;
+    min-height: 100%;
+    background-size: cover;
+    border: 15px white solid;
+    border-radius: 120px;
+    margin-top: 2rem;
+
+}
+
+
+#div6 div #pe{
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(1.5rem , 2vh, 2rem);
+  flex-wrap: wrap;
+  max-width: 36rem;
+  background-color: rgb(0, 102, 153);
+  margin-bottom: 5rem;
+  margin-top: 0.6rem;
+
+}
+
+#EnfantNature img{
+    height: 20rem;
+    width: 50rem;
+    max-width: auto;
+    min-height: 100%;
+    background-size: cover;
+    border: 15px white solid;
+    border-radius: 120px;
+    margin-top: 2rem;
+
+}
+
+#EnfantNature{
+  
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem;
+  flex-wrap: nowrap;
+  margin-bottom: 8rem;
+  margin-top: 7rem;
+  gap: 2rem;
+
+
+}
+
+
+#EnfantNature p{
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(1.5rem , 2vh, 2rem);
+  flex-wrap: wrap;
+  max-width: 25rem;
+  color: rgb(0, 102, 153);
+  margin-bottom: 5rem;
+  border-bottom: 20px solid rgb(255, 0, 102)
+
+}
+
+
+#div8 h3{
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(1.3rem , 2vh, 2rem);
+  flex-wrap: wrap;
+  background-color: rgb(0, 102, 153);
+  margin-top: 2rem;
+  text-align: left;
+  margin-bottom: 2rem;
+
+}
+
+
+#div9 img{
+  
+  height: 15rem;
+  width: 40rem;
+  max-width: auto;
+  min-height: 100%;
+  background-size: cover;
+  border: 15px white solid;
+  border-radius: 70px;
+  margin-top: 2rem;
+  margin-top: 2rem;
+  
+}
+
+#div9{
+  
+  display: -moz-inline-grid;
+  justify-content: space-around;
+  padding: 0.5rem;
+  margin-bottom: 8rem;
+  margin-top: 2rem;
+  gap: 2rem;
+
+}
+
+footer #ContainerFooter2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 5rem;
+  border-top: 30px solid rgb(217, 148, 102);
+}
+
+#PetitContainerFooter1{
+  
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+  padding-bottom: 2rem;
+  background-color: rgb(0, 204, 102)
+ 
+
+}
+
+
+#PetitContainerFooter1 p{
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(1rem , 2vh, 2rem);
+  flex-wrap: wrap;
+  color: #242c3b;
+  font-weight: bold;
+  max-width: 20rem;
+  text-align: justify;
+ 
+}
+
+
+#PetitContainerFooter1 ul li{
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(1rem , 2vh, 2rem);
+  flex-wrap: wrap;
+  color: #003399;
+  font-weight: bold;
+  list-style-type: square;
+ 
+
+}
+
+.PetitContainerFooter2{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background-color: #d6f5d6;
+  padding: 3rem;
+  margin-top: 0rem;
+
+}
+
+
+.PetitContainerFooter2 h6{
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(1.4rem , 2vh, 2rem);
+  flex-wrap: wrap;
+  background-color: rgb(51, 102, 255);
+  color: #003399;
+  margin-top: 2rem;
+  font-weight: bold;
+  
+}
+
+
+.PetitContainerFooter2 p{
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(1rem , 2vh, 2rem);
+  flex-wrap: wrap;
+  color: #003399;
+  margin-top: 2rem;
+  font-weight: bold;
+  
+}
+
+
+.PetitContainerFooter2 ul li{
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(1.1rem , 2vh, 2rem);
+  flex-wrap: wrap;
+  color: #11203d;
+  font-weight: bold;
+  list-style-type: square;
+  text-decoration-line: none;
+}
+
+.PetitContainerFooter2 ul li a{
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(1rem , 2vh, 2rem);
+  flex-wrap: wrap;
+  color: #003399;
+  font-weight: bold;
+  list-style-type: square;
+  text-decoration-line: none;
+}
+
+
+#Enhaut{
+  
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  background-color:  rgb(0, 204, 102);
+  align-items: end;
+  border-bottom: 20px solid rgb(217, 148, 102);
+
+}
+
+
+#Enhaut p{
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(1rem , 2vh, 2rem);
+  flex-wrap: wrap;
+  color: #003399;
+  margin-top: 2rem;
+  font-weight: bold;
+  
+
+}
+
+
+#Enhaut a{
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(1rem , 2vh, 2rem);
+  flex-wrap: wrap;
+  color: #122344;
+  font-weight: bold;
+  
+
+}
 
 
