@@ -1,6 +1,4 @@
 
-
-
 /*Ces regles permettent d'eliminer les marges et padding indesirables */
 *{
   margin: 0;
@@ -379,7 +377,7 @@ nav ul ul {
   display: flex;
   justify-content: space-around;
   padding: 5rem;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   margin-bottom: 8rem;
   margin-top: 7rem;
   gap: 2rem;
