@@ -29,6 +29,8 @@ main{
     
    flex: 1;
 }
+
+
 /*En tete de la page, on trouve le logo, le nom de la garderie et les icones reseaux sociaux*/
 #PremierBar{
     
@@ -90,7 +92,7 @@ main{
    
 }
 
-/*Bar de menu de la page*/
+/*Les blocs suivants concernent la stylisation du Bar de menu de la page*/
 nav ul{
     
    background-color:rgb(0, 204, 102);
@@ -142,7 +144,6 @@ nav ul ul {
 
 .Section1{
     
-  
   background-color: rgb(0, 204, 153);
   margin-top: 4rem;
   padding: 1rem;
@@ -438,6 +439,7 @@ nav ul ul {
 
 }
 
+/*Les blocs css qui vient apres concernent la stylisation du footer*/
 footer #ContainerFooter2{
   display: flex;
   flex-wrap: wrap;
