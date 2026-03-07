@@ -3,10 +3,10 @@
 
 /*Ces regles permettent d'eliminer les marges et padding indesirables */
 *{
-    margin: 0;
-    padding: 0;
-    max-width: 100%; 
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%; 
+  box-sizing: border-box;
 }
 
 
@@ -440,7 +440,7 @@ nav ul ul {
 }
 
 /*Les blocs css qui vient apres concernent la stylisation du footer*/
-footer #ContainerFooter2{
+footer #ContainerFooter{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -499,7 +499,7 @@ footer #ContainerFooter2{
 }
 
 
-.PetitContainerFooter2 h6{
+.PetitContainerFooter2 h4{
   
   font-family: 'Times New Roman', Times, serif;
   font-size: clamp(1.4rem , 2vh, 2rem);

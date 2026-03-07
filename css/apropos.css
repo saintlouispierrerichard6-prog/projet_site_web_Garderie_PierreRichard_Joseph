@@ -1,4 +1,6 @@
 
+/*Developpé par Pierre Richard Saint Louis
+Groupe 20: Cours de programmation web client*/
 
 /*Ces regles permettent d'eliminer les marges et padding indesirables */
 *{
@@ -137,7 +139,7 @@ nav ul li a{
 }
 
 
-#bloc1 h1{
+#bloc1 h2{
     
    font-family: 'Times New Roman', Times, serif;
    font-weight: bold;
@@ -148,7 +150,7 @@ nav ul li a{
 }
 
 
-#bloc1 h2{
+#bloc1 h3{
     
    font-family: 'Times New Roman', Times, serif;
    font-weight: bold;
@@ -193,6 +195,7 @@ nav ul li a{
    max-width: auto;
    height: 30rem;
    margin-bottom: 3rem;
+   justify-content: center;
 }
 
 #bloc2 div img{
@@ -226,7 +229,7 @@ nav ul li a{
 }
 
 
-#bloc2 #texte h3{
+#bloc2 #texte h4{
     
     font-family: 'Times New Roman', Times, serif;
    font-weight: bold;
@@ -264,7 +267,7 @@ nav ul li a{
 }
 
 
-#bloc3 #texte2 h3{
+#bloc3 #texte2 h4{
     
    font-family: 'Times New Roman', Times, serif;
    font-weight: bold;
@@ -331,7 +334,7 @@ nav ul li a{
 
 
 /*Les blocs css qui vient apres concernent la stylisation du footer*/
-footer #ContainerFooter2{
+footer #ContainerFooter{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -391,7 +394,7 @@ footer #ContainerFooter2{
 }
 
 
-.PetitContainerFooter2 h6{
+.PetitContainerFooter2 h5{
   
   font-family: 'Times New Roman', Times, serif;
   font-size: clamp(1.4rem , 2vh, 2rem);
@@ -477,3 +480,4 @@ footer #ContainerFooter2{
 }
 
 
+/*Developpé par Pierre Richard Saint Louis*/
