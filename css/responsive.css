@@ -12,19 +12,23 @@
 @media (max-width: 600px) {
     /*Pemiere partie pour la barre qui contient le logos et les icones*/
    #PremierBar{
-    padding: 1.5rem;
+    padding: 2.8rem;
     height: 8rem;
    }
 
    #PremierBar div h1{
     font-size: clamp(0.4rem , 2vh, 1.3rem);
     margin-top: 1rem;
+    max-width: 15rem;
+    flex-wrap: wrap;
 
    }
 
     #PremierBar div p{
     font-size: clamp(0.2rem , 2vh, 1.3rem);
     margin-top: 1rem;
+    max-width: 25rem;
+    flex-wrap: wrap;
     
    }
 
@@ -43,6 +47,7 @@
      text-align: end;
      color: darkred;
    }
+
  /*Deuxième partie pour la barre qui contient le menu*/
    nav ul{
     
@@ -69,7 +74,7 @@
     
     }
 
-    /*Quatrième partie pour styliser la section*/
+    /*Quatrième partie pour styliser la classe de la section1*/
   .Section1 h2{
 
     font-size: clamp(1.2rem, 1vh, 1.4rem);
@@ -83,27 +88,27 @@
     font-size: clamp(1rem, 1vh, 1.4rem);
     margin-top: 0.4rem;
   }
-
+  /*pour styliser la partie div2*/
    #div2 h2{ 
 
     font-size: clamp(1.2rem, 1vh, 1.2rem);
 
     }
-
+  /*pour styliser la section2*/
     #Section2 img{ 
 
      height: 10rem;
      width: 10rem;
 
     }
-
+    /*pour styliser la partie div3*/
     .div3 h2, h3{ 
 
      font-size: clamp(1.2rem, 1vh, 1.2rem);
      padding: 1rem;
 
     }
-
+    /*pour styliser la partie section4*/
     #Section4 img{ 
 
      height: 8rem;
@@ -118,21 +123,22 @@
 
     }
 
-    
+     /*pour styliser la partie div4*/
     #div4 #img2{ 
 
      width: 25rem;
      height: 20rem;
 
     }
-
+    /*pour styliser la partie div5*/
     #div5 h4{ 
 
      font-size: clamp(1.2rem, 1vh, 1.2rem);
      padding: 1rem;
 
     }
-
+     
+     /*pour styliser la partie div6*/
     #div6 div p
     {
       font-size: clamp(1rem, 1vh, 1.4rem);
@@ -160,7 +166,8 @@
       max-width: 65rem;
       text-align: justify;
     }
-
+   
+     /*pour styliser la partie Enfantdelanature*/
     #EnfantNature div img{
 
         width: 28rem;
@@ -182,7 +189,7 @@
       margin-bottom: 7rem;
 
     }
-
+    /*pour styliser la partie div8*/
     #div8 h3{
       
      font-size: clamp(1.2rem, 1vh, 1.2rem);
@@ -190,6 +197,7 @@
       text-align: center;
     }
     
+     /*pour styliser la partie footer*/
     #PetitContainerFooter1{
 
         justify-content: space-between;
