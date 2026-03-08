@@ -1,9 +1,6 @@
 
- /* Cette page de responsivité sert a permettre aux pages
- web de naviguer correctement sur les appareils comme mobile
- , tablette et laptop. Cette page est divisée en quatre parties et chaque partie contient
- de media querry pour chaque page separement. Les deux premieres parties ont été devloppés
-  par Pierre Richard Saint Louis*/
+ /* Cette page de responsivité sert a permettre a la page index.html web de naviguer correctement sur les appareils comme mobile
+ , tablette et laptop. Les deux premieres parties ont été devloppées par Pierre Richard Saint Louis*/
 
 
   /*===================Premier bloc de media querry de la page index html==============================*/
@@ -230,6 +227,7 @@
     }
 
 }
+/*==============================Fin du bloc de media querry de la page index html pour telephone=======================*/
 
 /* Cette règle est applicable pour tablette*/
 @media (max-width: 768px) {

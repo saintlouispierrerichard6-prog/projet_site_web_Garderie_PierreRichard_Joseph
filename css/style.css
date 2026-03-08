@@ -46,7 +46,7 @@ main{
 #ContainerLogo img{
     
    max-height: auto;
-   height: 7rem;
+   height: 17rem;
    max-width: 17rem;
    display: block;
    padding: 1rem;
@@ -360,17 +360,6 @@ nav ul ul {
 
 }
 
-#EnfantNature img{
-    height: 20rem;
-    width: 50rem;
-    max-width: auto;
-    min-height: 100%;
-    background-size: cover;
-    border: 15px white solid;
-    border-radius: 120px;
-    margin-top: 2rem;
-
-}
 
 #EnfantNature{
   
@@ -385,6 +374,20 @@ nav ul ul {
 
 }
 
+#EnfantNature img{
+    height: 5rem;
+    width: 20rem;
+    max-width: auto;
+    min-height: 100%;
+    background-size: cover;
+    border: 10px white solid;
+    border-radius: 40px;
+    margin-top: 3rem;
+    padding: 3rem;
+    gap: 1rem;
+  
+
+}
 
 #EnfantNature p{
   
@@ -393,8 +396,9 @@ nav ul ul {
   flex-wrap: wrap;
   max-width: 25rem;
   color: rgb(0, 102, 153);
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
   border-bottom: 20px solid rgb(255, 0, 102)
+  
 
 }
 
