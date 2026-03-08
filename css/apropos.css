@@ -131,11 +131,14 @@ nav ul li a{
    display: flex;
    flex-direction: column;
    background-color: rgb(204, 153, 0);
+   justify-items: center;
    box-shadow: darkorange;
+   padding: 10rem;
+   align-items: center;
    margin-left: 20rem;
    margin-right: 20rem;
-   padding: 7rem;
-
+   width: 60rem;
+   
 }
 
 
@@ -158,7 +161,9 @@ nav ul li a{
    text-decoration-line: underline;
    color: #2a4c92;
    flex-wrap: wrap;
+   text-align: left;
    margin-top: 1rem;
+   
 }
 
 
@@ -169,7 +174,7 @@ nav ul li a{
    font-size: clamp(1.4rem, 2vh, 1.8rem);
    color: #0f1116;
    flex-wrap: wrap;
-   max-width: 50;
+   max-width: 40rem;
    text-align: justify;
    margin-top: 1rem;
 }
@@ -182,7 +187,7 @@ nav ul li a{
    font-size: clamp(1.3rem, 2vh, 1.8rem);
    color: #0f1116;
    flex-wrap: wrap;
-   max-width: 50;
+   max-width: 20rem;
    text-align: justify;
    margin-top: 1rem;
 }
@@ -286,6 +291,8 @@ nav ul li a{
    background-color: #ff9999;
    padding: 4rem;
    height: 35rem;
+   max-height: auto;
+   max-width: auto;
    width: 55rem;
    margin-bottom: 4rem;
   max-width: auto;

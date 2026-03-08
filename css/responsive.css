@@ -13,14 +13,18 @@
     /*Pemiere partie pour la barre qui contient le logos et les icones*/
    #PremierBar{
     padding: 2.8rem;
-    height: 8rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
    }
 
    #PremierBar div h1{
     font-size: clamp(0.4rem , 2vh, 1.3rem);
     margin-top: 1rem;
     max-width: 15rem;
+    text-align: center;
     flex-wrap: wrap;
+    
 
    }
 
@@ -29,14 +33,14 @@
     margin-top: 1rem;
     max-width: 25rem;
     flex-wrap: wrap;
-    
+    text-align: center;
    }
 
    #ContainerReseauxSociaux ul{
     display: flex;
     flex-wrap: nowrap;
     gap: 0.6rem;
-    justify-content: end;
+    justify-content: center;
 
    }
 
@@ -238,3 +242,13 @@
 }
 
 /*==============================Fin du bloc de media querry de la page index html=======================*/
+ 
+/*===================Premier bloc de media querry de la page index html==============================*/
+ 
+  /* Cette règle est applicable pour le mobile*/
+
+  @media (max-width: 600px) {
+
+   
+
+  }
