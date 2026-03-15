@@ -7,25 +7,23 @@
   par Pierre Richard Saint Louis*/
 
 @media (max-width: 600px) {
-
+   /*Ce bloc concerne le premier bar au dessus du menu*/
     #PremierBar{
-    padding: 2.8rem;
+    padding: 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
    }
 
    #PremierBar div h1{
-    font-size: clamp(0.2rem , 2vh, 1.3rem);
-    margin-top: 1rem;
+    font-size: clamp(0.2rem , 2vh, 1rem);
     max-width: 20rem;
     text-align: center;
     flex-wrap: wrap;
    }
 
     #PremierBar div p{
-    font-size: clamp(0.1rem , 2vh, 1.3rem);
-    margin-top: 1rem;
+    font-size: clamp(0.1rem , 2vh, 1rem);
     max-width: 15rem;
     flex-wrap: wrap;
     text-align: center;
@@ -46,14 +44,18 @@
      text-align: end;
      color: darkred;
    }
+   /*Fin du bloc de premier bar*/
+
+   /*Ce bloc de code stylise le logo*/
 
    #ContainerLogo img{ 
 
-        height: 20rem;
+        height: 10rem;
         width: 35rem;
         display: block;
         background-size: cover;
    }
+   /*Fin du bloc de code de logo*/
 
    /*Deuxième partie pour la barre qui contient le menu*/
    nav ul{
@@ -72,8 +74,7 @@
 
    }
 
-   /*Troixième partie pour styliser le logo*/
-   
+   /*Troixième partie pour styliser le hero*/
    
     #hero img{
         
@@ -82,6 +83,7 @@
     
     }
 
+    /*Ce bloc de code stylise le premier bloc de la page*/
     main #bloc1{
     
       width: 70rem;
@@ -118,8 +120,10 @@
       
     }
 
-    
-     #bloc2 div img{
+    /*Fin du premier bloc de la page*/
+
+    /*Ce bloc stylise le deuxieme bloc de page*/
+    #bloc2 div img{
 
       height: 15rem;
       margin-top: 4rem;
@@ -129,9 +133,13 @@
     
      #bloc2 #texte {
 
-      height: 55rem;
+      height: 60rem;
       
     }
+
+    /*Fin du deuxieme bloc de la page*/
+
+    /*Cette partie stylise le troisieme bloc de la page*/
 
     #bloc3 div img{
 
@@ -143,24 +151,32 @@
     
     #bloc3  #texte2{
 
-      height: 55rem;
+      height: 60rem;
       
     }
+
+    /*Fin du troisieme bloc de la page*/
+
+    /*Cette partie stylise le bloc qui contient l'image en background*/
 
      #back{
 
       margin-bottom: 3rem;
-      padding: 2rem;
+      padding: 4rem;
       
     }
 
     
      #back p{
-      color: rgb(207, 98, 98);
-      margin-top: 25rem
+      color: rgb(216, 136, 70);
+      margin-top: 30rem;
+      
       
     }
 
+    /*Fin du bloc qui contient l'image en arriere plan*/
+    
+    /*Cette partie stylise le footer de la page*/
      footer #ContainerFooter{
 
       margin-top: 4rem;
@@ -193,10 +209,427 @@
 
       margin-top: 1rem;
     
+    } 
+
+    /*Fin du bloc de footer*/
+
+}
+
+/*Cette partie va rendre la page a propos responsive sur 768px*/
+
+@media (max-width: 768px) 
+{
+
+   #PremierBar{
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #PremierBar div h1{
+    font-size: clamp(0.5rem , 2vh, 1rem);
+    margin-top: 1rem;
+    max-width: 20rem;
+    text-align: center;
+    flex-wrap: wrap;
+   }
+
+    #PremierBar div p{
+    font-size: clamp(0.1rem , 2vh, 1rem);
+    margin-top: 1rem;
+    max-width: 15rem;
+    flex-wrap: wrap;
+    text-align: center;
+   }
+
+   #ContainerReseauxSociaux ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    justify-content: center;
+    margin-top: 2rem;
+
+   }
+
+   #ContainerReseauxSociaux ul li a{
+    
+     font-size: clamp(0.9rem, 1vh, 1.4rem);
+     text-align: end;
+     color: darkred;
+   }
+
+   /*Ce bloc de code stylise le logo*/
+
+   #ContainerLogo img{ 
+
+        height: 10rem;
+        width: 35rem;
+        display: block;
+        background-size: cover;
+   }
+   /*Fin du bloc de code de logo*/
+
+   /*Deuxième partie pour la barre qui contient le menu*/
+   nav ul{
+    
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    
+
+   }
+
+   nav ul li a{
+    
+    font-size: clamp(0.9rem, 1vh, 1.4rem);
+
+   }
+
+   
+   /*Troixième partie pour styliser le  hero de la page*/
+
+    #hero img{
+        
+    height: 40rem;
+    width: 100%;
+    }
+    /*Fin du style de hero*/
+
+    /*Cette partie stylise le premier bloc central de la page*/
+    
+    main #bloc1{
+    
+      width: 70rem;
+      margin-left: 0.1rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
     }
 
+    
+    #bloc1 h2{
 
-     
-     
+      font-size: clamp(1.3rem, 1vh, 1.4rem);
+      margin-bottom: 0.2rem;
+      margin-top: 0.6rem
+      
+    }
+
+     #bloc1 h3{
+
+      font-size: clamp(1.3rem, 1vh, 1.4rem);
+      max-width: 35rem;
+      margin-bottom: 0.2rem;
+      margin-top: 0.6rem
+      
+    }
+
+    #bloc1 p{
+
+      font-size: clamp(1.3rem, 1vh, 1.4rem);
+      max-width: 35rem;
+      margin-bottom: 0.2rem;
+      margin-top: 0.6rem
+      
+    }
+    /*Fin du premier bloc de la page*/
+
+    /*Ce bloc stylise le deuxieme bloc de page*/
+    #bloc2 div img{
+
+      height: 15rem;
+      margin-top: 4rem;
+      
+    }
+
+    
+     #bloc2 #texte {
+
+      height: 60rem;
+      
+    }
+
+    /*Fin du deuxieme bloc de la page*/
+
+    /*Cette partie stylise le troisieme bloc de la page*/
+
+    #bloc3 div img{
+
+      margin-top: 30rem;
+      height: 20rem;
+      
+    }
+
+    
+    #bloc3  #texte2{
+
+      height: 60rem;
+      
+    }
+
+    /*Fin du troisieme bloc de la page*/
+
+     /*Cette partie stylise le bloc qui contient l'image en background*/
+
+     #back{
+
+      margin-bottom: 3rem;
+      padding: 4rem;
+      
+    }
+
+    
+     #back p{
+      color: rgb(216, 136, 70);
+      margin-top: 30rem;
+      
+      
+    }
+
+    /*Fin du bloc qui contient l'image en arriere plan*/
+
+    /*Cette partie stylise le footer de la page*/
+     footer #ContainerFooter{
+
+      margin-top: 4rem;
+      
+    }
+   
+    
+    #PetitContainerFooter1{
+
+        justify-content: space-between;
+        
+    }
+
+     #PetitContainerFooter1 p{
+
+      font-size: clamp(0.7rem, 1vh, 2rem);
+      padding: 1rem;
+      max-width: 14rem;
+        
+    }
+
+    #PetitContainerFooter1 ul li{
+
+      font-size: clamp(0.7rem, 1vh, 2rem);
+      max-width: 14rem;
+    
+    }
+
+    #PetitContainerFooter1 ul{
+
+      margin-top: 1rem;
+    
+    } 
+
+    /*Fin du bloc de footer*/
+}
+
+/*====================================================================*/
+/*Cette partie va rendre la page responsive sur les ecrans de 1024px*/
+@media (max-width: 1024px) 
+{
+     /*Ce bloc concerne le premier bar au dessus du menu*/
+    #PremierBar{
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #PremierBar div h1{
+    font-size: clamp(0.2rem , 2vh, 1rem);
+    max-width: 20rem;
+    text-align: center;
+    flex-wrap: wrap;
+   }
+
+    #PremierBar div p{
+    font-size: clamp(0.1rem , 2vh, 1rem);
+    max-width: 15rem;
+    flex-wrap: wrap;
+    text-align: center;
+   }
+
+   #ContainerReseauxSociaux ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    justify-content: center;
+    margin-top: 2rem;
+
+   }
+
+   #ContainerReseauxSociaux ul li a{
+    
+     font-size: clamp(0.9rem, 1vh, 1.4rem);
+     text-align: end;
+     color: darkred;
+   }
+   /*Fin du bloc de premier bar*/
+   
+   
+   /*Ce bloc de code stylise le logo*/
+
+   #ContainerLogo img{ 
+
+      height: 10rem;
+      width: 35rem;
+      display: block;
+      background-size: cover;
+   }
+   /*Fin du bloc de code de logo*/
+
+   /*Deuxième partie pour la barre qui contient le menu*/
+   nav ul{
+    
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+   }
+
+   nav ul li a{
+    
+    font-size: clamp(2rem, 1vh, 1.4rem);
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+
+   /*Troixième partie pour styliser le  hero de la page*/
+
+    #hero img{
+        
+    height: 40rem;
+    width: 100%;
+    }
+    /*Fin du style de hero*/
+
+    /*Cette partie stylise le premier bloc central de la page*/
+    
+    main #bloc1{
+    
+      width: 70rem;
+      margin-left: 0.1rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    
+    #bloc1 h2{
+
+      font-size: clamp(1.3rem, 1vh, 1.4rem);
+      margin-bottom: 0.2rem;
+      margin-top: 0.6rem
+      
+    }
+
+     #bloc1 h3{
+
+      font-size: clamp(1.3rem, 1vh, 1.4rem);
+      max-width: 35rem;
+      margin-bottom: 0.2rem;
+      margin-top: 0.6rem
+      
+    }
+
+    #bloc1 p{
+
+      font-size: clamp(1.3rem, 1vh, 1.4rem);
+      max-width: 35rem;
+      margin-bottom: 0.2rem;
+      margin-top: 0.6rem
+      
+    }
+    /*Fin du premier bloc de la page*/
+   
+    /*Ce bloc stylise le deuxieme bloc de page*/
+    #bloc2 div img{
+
+      height: 15rem;
+      margin-top: 4rem;
+      
+    }
+
+    
+     #bloc2 #texte {
+
+      height: 60rem;
+      
+    }
+
+    /*Fin du deuxieme bloc de la page*/
+
+     /*Cette partie stylise le troisieme bloc de la page*/
+
+    #bloc3 div img{
+
+      margin-top: 30rem;
+      height: 20rem;
+      
+    }
+
+    #bloc3  #texte2{
+
+      height: 60rem;
+      
+    }
+
+    /*Fin du troisieme bloc de la page*/
+
+    /*Cette partie stylise le bloc qui contient l'image en background*/
+
+     #back{
+
+      margin-bottom: 3rem;
+      padding: 4rem;
+      
+    }
+
+     #back p{
+      color: rgb(216, 136, 70);
+      margin-top: 30rem;
+      
+      
+    }
+
+    /*Cette partie stylise le footer de la page*/
+     footer #ContainerFooter{
+
+      margin-top: 4rem;
+      
+    }
+   
+    
+    #PetitContainerFooter1{
+
+        justify-content: space-between;
+        
+    }
+
+     #PetitContainerFooter1 p{
+
+      font-size: clamp(1rem, 1vh, 2rem);
+      padding: 1rem;
+      max-width: 18rem;
+        
+    }
+
+    #PetitContainerFooter1 ul li{
+
+      font-size: clamp(1rem, 1vh, 2rem);
+      max-width: 14rem;
+    
+    }
+
+    #PetitContainerFooter1 ul{
+
+      margin-top: 1rem;
+    
+    } 
+
+    /*Fin du bloc de footer*/
 
 }
