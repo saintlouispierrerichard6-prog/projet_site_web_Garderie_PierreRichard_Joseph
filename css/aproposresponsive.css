@@ -2,9 +2,8 @@
 
  /* Cette page de responsivité sert a permettre aux pages
  web de naviguer correctement sur les appareils comme mobile
- , tablette et laptop. Cette page est divisée en quatre parties et chaque partie contient
- de media querry pour chaque page separement. Les deux premieres parties ont été devloppés
-  par Pierre Richard Saint Louis*/
+ , tablette et laptop. Cette page est divisée en trois parties et chaque partie contient
+ de media querry pour naviguer sur un ecran specifique. Ce travail est developpé par Yvan Nguelle*/
 
 @media (max-width: 600px) {
    /*Ce bloc concerne le premier bar au dessus du menu*/
