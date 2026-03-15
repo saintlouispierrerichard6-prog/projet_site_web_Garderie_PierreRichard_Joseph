@@ -16,7 +16,7 @@
    }
 
    #PremierBar div h1{
-    font-size: clamp(0.2rem , 2vh, 1.3rem);
+    font-size: clamp(0.5rem , 2vh, 1rem);
     margin-top: 1rem;
     max-width: 20rem;
     text-align: center;
@@ -24,7 +24,7 @@
    }
 
     #PremierBar div p{
-    font-size: clamp(0.1rem , 2vh, 1.3rem);
+    font-size: clamp(0.1rem , 2vh, 1rem);
     margin-top: 1rem;
     max-width: 15rem;
     flex-wrap: wrap;
@@ -49,8 +49,8 @@
 
    #ContainerLogo img{ 
 
-        height: 20rem;
-        width: 35rem;
+        height: 15rem;
+        width: 20rem;
         display: block;
         background-size: cover;
    }
@@ -68,7 +68,8 @@
 
    nav ul li a{
     
-    font-size: clamp(0.9rem, 1vh, 1.4rem);
+    font-size: clamp(0.4rem, 1vh, 1.4rem);
+    font-family: 'Times New Roman', Times, serif;
 
    }
 
@@ -177,7 +178,7 @@
      /*pour styliser la partie Enfantdelanature*/
     #EnfantNature div img{
 
-        width: 28rem;
+        width: 20rem;
         height: 10rem;
         flex-wrap: wrap;
         border-style: none;
@@ -196,6 +197,7 @@
       margin-bottom: 7rem;
 
     }
+
     /*pour styliser la partie div8*/
     #div8 h3{
       
@@ -237,22 +239,239 @@
 
 /* Cette règle est applicable pour tablette*/
 @media (max-width: 768px) {
+   /*Pemiere partie pour la barre qui contient le logos et les icones*/
+    #PremierBar{
+    padding: 0.4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #PremierBar div h1{
+    font-size: clamp(0.2rem , 2vh, 1rem);
+    max-width: 20rem;
+    text-align: center;
+    flex-wrap: wrap;
+   }
+
+    #PremierBar div p{
+    font-size: clamp(0.1rem , 2vh, 1rem);
+    max-width: 15rem;
+    flex-wrap: wrap;
+    text-align: center;
+   }
+
+   #ContainerReseauxSociaux ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    justify-content: center;
+    margin-top: 2rem;
+
+   }
+
+   #ContainerReseauxSociaux ul li a{
+    
+     font-size: clamp(1rem, 1vh, 1.4rem);
+     text-align: end;
+     color: darkred;
+   }
+
+   #ContainerLogo img{ 
+
+        height: 7rem;
+        width: 20rem;
+        display: block;
+        background-size: cover;
+        
+   }
+
+   /*Deuxième partie pour la barre qui contient le menu*/
+   nav ul{
+    
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    
+
+   }
+
+   nav ul li a{
+    
+    font-size: clamp(1rem, 1vh, 1.4rem);
+
+   }
+
    
+   /*Troixième partie pour styliser le logo*/
+
+    #hero img{
+        
+    height: 30rem;
+    width: 100%;
+    
+  }
+
+  /*pour styliser la partie Enfantdelanature*/
+    #EnfantNature div img{
+
+        width: 28rem;
+        height: 10rem;
+        flex-wrap: wrap;
+        border-style: none;
+        border-radius: 0;
+        padding: 5rem;
+        margin-top: 4rem;
+        
+    }
+
+    #EnfantNature div p{
+      
+      font-size: clamp(1.2rem, 1vh, 1.4rem);
+      max-width: 65rem;
+      text-align: justify;
+      margin-top: 0.5rem;
+      margin-bottom: 7rem;
+
+    }
+
+    
+    #div6 div #pe{
+
+      font-size: clamp(1rem, 1vh, 1.4rem);
+      margin-top: 0.4rem;
+      max-width: 65rem;
+      text-align: justify;
+    }
+    /*pour styliser la partie div8*/
+    #div8 h3{
+      
+     font-size: clamp(2rem, 1vh, 1.8rem);
+      padding: 1rem;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    
+
+  /*pour styliser la partie footer*/
+    #PetitContainerFooter1{
+
+        justify-content: space-between;
+        
+    }
+
+     #PetitContainerFooter1 p{
+
+      font-size: clamp(0.7rem, 1vh, 2rem);
+      padding: 1rem;
+      max-width: 14rem;
+        
+    }
+
+    #PetitContainerFooter1 ul li{
+
+      font-size: clamp(0.7rem, 1vh, 2rem);
+      max-width: 14rem;
+    
+    }
+
+    #PetitContainerFooter1 ul{
+
+      margin-top: 1rem;
+    
+    }
+
+
 }
 
 /* Cette règle est applicable pour laptop*/
 @media (max-width: 1024px) {
+   /*Pemiere partie pour la barre qui contient le logos et les icones*/
+    #PremierBar{
+    padding: 0.4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #PremierBar div h1{
+    font-size: clamp(0.2rem , 2vh, 1rem);
+    max-width: 20rem;
+    text-align: center;
+    flex-wrap: wrap;
+   }
+
+    #PremierBar div p{
+    font-size: clamp(0.1rem , 2vh, 1rem);
+    max-width: 15rem;
+    flex-wrap: wrap;
+    text-align: center;
+   }
+
+   #ContainerReseauxSociaux ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    justify-content: center;
+    margin-top: 2rem;
+
+   }
+
+   #ContainerReseauxSociaux ul li a{
+    
+     font-size: clamp(1rem, 1vh, 1.4rem);
+     text-align: end;
+     color: darkred;
+   }
+
+   #ContainerLogo img{ 
+
+        height: 7rem;
+        width: 20rem;
+        display: block;
+        background-size: cover;
+        
+   }
+
    
+ /*Deuxième partie pour la barre qui contient le menu*/
+   nav ul{
+    
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    
+
+   }
+
+   nav ul li a{
+    
+    font-size: clamp(1.8rem, 1vh, 1.4rem);
+
+   }
+
+    #EnfantNature div{
+
+      padding: 4rem;
+
+    }
+
+    
+    #EnfantNature div img{
+
+     width: 35rem; 
+
+    }
+
+   /*pour styliser la partie Enfantdelanature*/
+    
+
 }
 
 /*==============================Fin du bloc de media querry de la page index html=======================*/
  
 /*===================Premier bloc de media querry de la page index html==============================*/
  
-  /* Cette règle est applicable pour le mobile*/
-
-  @media (max-width: 600px) {
-
-   
-
-  }
+  
